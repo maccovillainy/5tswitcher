@@ -1,0 +1,102 @@
+body {
+    /*background: #34D1B2;*/
+    background: linear-gradient(to bottom, #34D1B2, #00A383);
+}
+
+table {
+    border-collapse: collapse; /* Отображать только одинарные линии */
+    /*background-color: #5ed1ba;*/
+    background-color: #5ed1ba;
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px 0px #00a383;
+}
+
+th, td {
+    text-align: left;
+}
+
+th {
+    padding: 8px;
+    white-space: nowrap;
+    border-bottom: 2px solid #00A383;
+    color: #1F7A68;
+    font-family: 'Play', sans-serif;
+}
+
+th:hover {
+    cursor: default;
+}
+
+td {
+    border-bottom: 1px solid #00A383;
+    cursor: pointer;
+    transition: all .3s;
+    font-family: 'Play', sans-serif;
+    color: #1F7A68;
+    white-space: nowrap;
+}
+
+tr:last-child td {
+    border-bottom: 0;
+}
+
+td:hover {
+    color: #1F7A68;
+    transform: rotateZ(-7deg);
+    font-style: italic;
+    font-weight: bold;
+}
+
+td:last-child:hover {
+    transform: rotateZ(7deg);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    color: #1F7A68;
+    font-size: 23px;
+    padding: 8px 0 2px 0;
+    margin: 0;
+}
+
+h2:hover {
+    cursor: default;
+}
+
+a {
+    color: #1F7A68;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+    font-style: inherit;
+}
+
+.js-host {
+    padding: 8px;
+}
+
+a:hover {
+    color: #1F7A68;
+    text-decoration: none;
+}
+
+.current {
+    box-shadow: 0px 0px 5px 1px #006A55;
+}
+
+/*
+#switcher {
+    display: flex;
+}
+
+
+.container:not(:last-child) {
+    padding-right: 20px;
+}
+*/
