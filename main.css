@@ -86,7 +86,7 @@ a:hover {
 }
 
 .current {
-    animation: shadow  s infinite ease-in-out;
+    animation: shadow  1s infinite ease-in-out;
 }
 
 .dropdown {
