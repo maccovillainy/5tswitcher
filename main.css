@@ -9,7 +9,6 @@ table {
     background-color: #5ed1ba;
     width: 100%;
     border-radius: 3px;
-    overflow: hidden;
     box-shadow: 2px 2px 4px 0px #00a383;
 }
 
@@ -50,7 +49,7 @@ td:hover {
 }
 
 td:last-child:hover {
-    transform: rotateZ(7deg);
+    transform: rotateZ(0);
 }
 
 * {
@@ -87,7 +86,51 @@ a:hover {
 }
 
 .current {
-    box-shadow: 0px 0px 5px 1px #006A55;
+    animation: shadow  s infinite ease-in-out;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: #34D1B2;
+    transform: translateX(-70%);
+}
+
+.dropdown li {
+    border-top: 1px solid #00A383;
+    padding-left: 10px;
+}
+
+.link {
+}
+
+.link:hover {
+    position: relative;
+    background: #34D1B2;
+}
+
+.link:hover .dropdown {
+    display: block;
+}
+
+
+@keyframes shadow {
+    from {
+        box-shadow: 0px 0px 5px 1px #006A55;
+    }
+    50% {
+        box-shadow: 0px 0px 18px 2px #006A55;
+    }
+    to {
+        box-shadow: 0px 0px 5px 1px #006A55;
+    }
 }
 
 /*

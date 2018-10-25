@@ -33,10 +33,28 @@ function createTable(config) {
 				`;
 
 				if (host.justOpen) {
-					table += `
+					console.log('group.site', group.site);
+					if (group.site) {
+						table += `
+						<td>
+							<div class="link">
+								<a class="js-link link" href=https://${host.host} >${host.name}</a>
+								<ul class="dropdown">
+									<li>
+										<a class="js-link" href=https://${host.host}/anapa>Anapa</a>
+									</li>
+									<li>
+										<a class="js-link" href=https://${host.host}/anapa/stay>Anapa stay</a>
+									</li>
+								</ul>
+							</div>
+						</td>`;
+					} else {
+						table += `
 						<td>
 							<a class="js-link" href=https://${host.host} />${host.name}</a>
 						</td>`;
+					}
 				}
 
 				table += '</tr>';

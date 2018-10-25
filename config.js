@@ -2,6 +2,7 @@ window.config = {
 	groups: [
 		{
 			title: 'nakubani',
+			site: true,
 			hosts: [
 				{
 					host: 'onk.nakubani.local',
@@ -21,6 +22,11 @@ window.config = {
 				{
 					host: 'onk.default-other.5t',
 					name: 'default-other',
+					justOpen: true
+				},
+				{
+					host: 'onk.puld.5t',
+					name: 'puld',
 					justOpen: true
 				},
 				{
@@ -54,6 +60,16 @@ window.config = {
 					justOpen: true
 				},
 				{
+					host: 'a.puld.5t',
+					name: 'puld',
+					justOpen: true
+				},
+				{
+					host: 'a.veshchev.5t',
+					name: 'veshchev',
+					justOpen: true
+				},
+				{
 					host: 'admin.5turistov.ru',
 					name: 'prod',
 					justOpen: true
@@ -76,6 +92,11 @@ window.config = {
 				{
 					host: 'k.kolbasenko.5t',
 					name: 'kolbasenko',
+					justOpen: true
+				},
+				{
+					host: 'k.puld.5t',
+					name: 'puld',
 					justOpen: true
 				},
 				{
