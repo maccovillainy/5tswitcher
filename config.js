@@ -105,6 +105,41 @@ window.config = {
 					justOpen: true
 				}
 			]
+		},
+		{
+			title: 'partner',
+			hosts: [
+				{
+					host: 'p.nakubani.local',
+					name: 'local',
+					justOpen: true
+				},
+				{
+					host: 'p.office2-other.5t',
+					name: 'office2-other',
+					justOpen: true
+				},
+				{
+					host: 'p.default.5t',
+					name: 'default',
+					justOpen: true
+				},
+				{
+					host: 'p.kolbasenko.5t',
+					name: 'kolbasenko',
+					justOpen: true
+				},
+				{
+					host: 'p.puld.5t',
+					name: 'puld',
+					justOpen: true
+				},
+				{
+					host: 'p.5turistov.ru',
+					name: 'prod',
+					justOpen: true
+				}
+			]
 		}
 	]
 };
