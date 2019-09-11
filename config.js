@@ -55,6 +55,11 @@ window.config = {
 					justOpen: true
 				},
 				{
+					host: 'a.office2-other.5t',
+					name: 'office2-other',
+					justOpen: true
+				},
+				{
 					host: 'a.kolbasenko.5t',
 					name: 'kolbasenko',
 					justOpen: true
@@ -95,6 +100,11 @@ window.config = {
 					justOpen: true
 				},
 				{
+					host: 'k.office2-other.5t',
+					name: 'office2-other',
+					justOpen: true
+				},
+				{
 					host: 'k.puld.5t',
 					name: 'puld',
 					justOpen: true
@@ -110,7 +120,7 @@ window.config = {
 			title: 'partner',
 			hosts: [
 				{
-					host: 'p.nakubani.local',
+					host: 'partner.nakubani.local',
 					name: 'local',
 					justOpen: true
 				},
